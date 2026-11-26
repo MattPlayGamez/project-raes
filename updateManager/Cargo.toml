@@ -1,0 +1,13 @@
+[package]
+name = "updateManager"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ctrlc = "3"
+image = "0.25"
+rand = "0.8"
+rodio = { version = "0.19", features = ["symphonia-mp3"] }
+serenity = { version = "0.12", features = ["client", "gateway", "model", "cache"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "process"] }
+xcap = "0.0.14"
